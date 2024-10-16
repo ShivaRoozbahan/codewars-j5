@@ -1,5 +1,4 @@
 function litres(time) {
-  const litresWater = 0.5;
-  const result = time * litresWater;
+  const result = time / 2;
   return Math.floor(result);
 }
